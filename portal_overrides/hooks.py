@@ -177,15 +177,6 @@ app_license = "mit"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "portal_overrides.event.get_events"
 # }
-override_whitelisted_methods = {
-    "erpnext.accounts.doctype.sales_invoice.sales_invoice.get_list_context":
-        "portal_overrides.portal_overrides.sales_invoice.get_list_context",
-
-    "erpnext.controllers.website_list_for_contact.get_transaction_list":
-        "portal_overrides.portal_overrides.website_list_for_contact.get_transaction_list",
-}
-
-
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
